@@ -1,0 +1,128 @@
+/* head部分 */
+
+.head-title-cloud {
+    position: absolute;
+    background-color: rgb(105, 224, 255);
+    height: 5px;
+    left: 510px;
+    width: 40px;
+    top: 0px;
+    /* 无法做出如同官网一般可移动横条所做的替代物 */
+}
+
+.footer {
+    position: relative;
+    top: 865px;
+    width: 100%;
+    height: 429.8px;
+    margin-top: 0px;
+    margin-top: -932px;
+    /* 如需嵌和新页面调整此代码即可 */
+    background-color: #000;
+}
+
+
+/* 地图介绍部分 */
+
+.city {
+    margin-top: -185px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(250px);
+    padding-bottom: 0px;
+}
+
+.city ul li:hover .city-list-char {
+    opacity: 1;
+    /* 盒子透明度 */
+}
+
+.city-list {
+    overflow: hidden;
+}
+
+.city-list-item {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background: center no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    overflow: hidden;
+    /* 修剪内容 */
+}
+
+.city-list-item p,
+.home .city-list-item a {
+    display: inline-block;
+    position: relative;
+    top: -400px;
+    z-index: 3;
+    font-size: 36px;
+    color: #fff;
+    line-height: 260px;
+    width: 100%;
+    height: 260px;
+    background-size: 132px;
+    text-align: center;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+.city-img {
+    transition: all ease 0.7s;
+}
+
+.city-imgs {
+    display: inline-block;
+    position: relative;
+    top: -199px;
+    left: 690px;
+    z-index: 3;
+    font-size: 36px;
+    color: #fff;
+    line-height: 260px;
+    text-align: center;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+.city-list-item:hover .city-img {
+    transform: scale(1.1);
+}
+
+.city-list-item .city-list-char {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 360px) 50%;
+    background-size: 960px 260px;
+    opacity: 0;
+    transition: all 0.2s 0s ease-in;
+    border: #fff solid 6px;
+    box-sizing: border-box;
+}
+
+.city-list-item-last a p {
+    display: inline-block;
+    position: relative;
+    top: -265px;
+    z-index: 3;
+    font-size: 36px;
+    color: #5e5f63;
+    line-height: 260px;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    margin: 0 !important;
+    overflow: hidden;
+}

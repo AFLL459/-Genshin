@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden !important;
+    /* 取消横向滚动条 */
+}
+
+li {
+    list-style: none;
+    /* 无序列装饰 */
+}
+
+a {
+    text-decoration: none;
+    /* 无文本装饰 */
+}
+
+
+/* head部分 */
+
+.head {
+    display: flex;
+    /*弹性布局*/
+    top: 0px;
+    width: 100%;
+    height: 66px;
+    position: fixed;
+    /* 生成固定定位的元素，相对于浏览器窗口进行定位 */
+    z-index: 999;
+    /* 元素堆叠顺序 */
+    background-color: rgba(17, 17, 17, 0.75);
+    /* 元素背景色 */
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+    /* 向div元素添加阴影 */
+}
+
+.head-audio-control {
+    position: absolute;
+    /* 生成绝对定位的元素 */
+    top: 20px;
+    left: 60px;
+    width: 30px;
+    height: 34px;
+    z-index: 999;
+    cursor: pointer;
+    /* 鼠标指针移动到该位置后光标呈现为指示链接的指针（一只手） */
+}
+
+.head-logo-position {
+    position: absolute;
+    top: 0px;
+}
+
+.header-title {
+    width: 800px;
+    height: 66px;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+.head-title-text a {
+    position: relative;
+    /* 生成相对定位的元素，相对于其正常位置进行定位 */
+    left: 280px;
+    top: 0px;
+    float: left;
+    width: 40px;
+    height: 66px;
+    margin: 0 30px;
+    line-height: 66px;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    /* 规定字符间的空间 */
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.head-title-text a:hover {
+    /* hover：鼠标移到固定位置后显示另一样式 */
+    text-shadow: 0 0 10px #69e0ff, 0 0 40px #69e0ff, 0 0 40px #69e0ff;
+    /* 向text元素添加阴影 */
+    color: #fff;
+}
+
+.head-minor {
+    position: absolute;
+    width: 311.31px;
+    height: 66px;
+    left: 1200px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.head-minor:hover {
+    color: white;
+}
+
+.head-minor img {
+    margin-left: 18px;
+    width: 27px;
+    height: 27px;
+    opacity: 0.6;
+}
+
+.head-login {
+    position: absolute;
+    width: 103.77px;
+    height: 66px;
+    left: 1380px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.head-login:hover {
+    color: white;
+}
+
+.head-login img {
+    margin-left: 18px;
+    width: 27px;
+    height: 27px;
+    opacity: 0.6;
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden !important;
+    /* 取消横向滚动条 */
+}
+
+.head-title-cloud {
+    position: absolute;
+    background-color: rgb(105, 224, 255);
+    height: 5px;
+    left: 610px;
+    width: 40px;
+    top: 0px;
+}
+
+
+/* 世界标签页首页部分 */
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-center {
+    position: fixed;
+    margin-top: 238.405px;
+    width: 100%;
+    height: 283.19px;
+}
+
+.page-center-box {
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+}
+
+.page-center-box-picture-one {
+    position: fixed;
+    width: 800px;
+    height: 77.25px;
+    margin: 0 auto 2.4vh;
+}
+
+.page-center-box-picture-one img {
+    width: 317.68px;
+    height: 77.25px;
+    padding-left: 241.16px;
+}
+
+.page-center-box-picture-two {
+    position: fixed;
+    width: 800px;
+    height: 12.66px;
+    margin: 89.91px auto 2.4vh;
+}
+
+.page-center-box-picture-two img {
+    width: 402.04px;
+    height: 12.66px;
+    padding-left: 198.98px;
+}
+
+.page-center-box-text-one {
+    position: fixed;
+    width: 800px;
+    height: 115.2px;
+    margin: 124.17px auto 2.4vh;
+}
+
+.page-center-box-text-one p {
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 0 0 12px rgb(110, 159, 193/36%), 0 0 12px rgb(110, 159, 193/36%);
+    line-height: 1.8;
+    color: #fff;
+}
+
+.page-center-box-text-two {
+    position: fixed;
+    background-size: cover;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 12px rgb(47 125 178 / 45%), 0 0 12px rgb(47 125 178 / 45%);
+    cursor: pointer;
+    margin: -40px auto 2.4vh;
+    padding-left: 223px;
+}
+
+.page-center-box-picture-three {
+    position: fixed;
+    padding-left: 123px;
+    margin: 260.97px auto 2.4vh;
+    background-position-x: center;
+    background-position-y: center;
+}

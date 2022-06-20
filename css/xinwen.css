@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-title-cloud {
+    position: absolute;
+    background-color: rgb(105, 224, 255);
+    height: 5px;
+    left: 410px;
+    width: 40px;
+    top: 0px;
+}
+
+.footer {
+    position: relative;
+    top: 865px;
+    width: 100%;
+    height: 429.8px;
+    margin-top: 0px;
+    margin-top: -1075px;
+    /* 如需嵌和新页面调整此代码即可 */
+    background-color: #000;
+}
+
+/* 最新新闻部分 */
+.beijing {
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.xinwen {
+    min-width: 1200px;
+    display: flex;
+    height: 700px;
+    background-image: url(../image/newsimage/newsbg.jpg);
+}
+
+bignew {
+    overflow: hidden;
+    position: relative;
+    left: 16.3%;
+    right: 16.3%;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 450px;
+    width: 421px;
+    margin-right: 0.5%;
+    margin-top: 7.6%;
+    border-radius: 5px 5px 5px 5px;
+    border-radius: 1% 1% 1% 1%;
+}
+
+/*在图片img外套一层盒子，即可做到图片缩放不会溢出父类盒子*/
+.recommend__imgwrap {
+    width: 380px;
+    height: 190px;0
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.recommend__img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s 0s ease;
+}
+
+    .recommend__img:hover {
+        transform: scale(1.2);
+    }
+
+bignew p {
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 19px;
+    right: 21px;
+    top: 236px;
+}
+
+bignew span {
+    color: gray;
+    position: absolute;
+    bottom: 19px;
+    left: 21px;
+    font-size: 16px;
+}
+
+bignew text {
+    color: goldenrod;
+    font-size: 16px;
+    position: absolute;
+    bottom: 19px;
+    right: 21px;
+}
+
+.Newschoice {
+    display: flex;
+    width: 100%;
+    height: 36px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.choice {
+    margin-right: 1%;
+    text-align: center;
+    float: left;
+    width: 155px;
+    height: 36px;
+    background-color: lightgray;
+    border-radius: 5px 5px 5px 5px;
+    border-radius: 7% 7% 7% 7%;
+    font-size: 14px;
+    line-height: 35px;
+    color: #393B40;
+    text-decoration: none;
+    border-width: 3px 3px 3px 3px;
+}
+
+    .choice:hover {
+        background: black;
+        color: #F4D8A8
+    }
+
+.mainnews {
+    min-width: 1200px;
+}
+
+.mainnews {
+    width: 65%;
+    border-radius: 1% 1% 1% 1%;
+    position: relative;
+    left: 16.3%;
+    right: 16.3%;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 0.5%;
+    background-color: white;
+}
+
+img.news {
+    width: 265px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.NEW {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    width: 66%;
+    height: 140px;
+}
+
+
+.news12 {
+    position: relative;
+    left: 101.7%;
+    bottom: -58%;
+}
+
+.news1 {
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+    left: -57px;
+}
+
+.news2 {
+    font-size: 14px;
+    color: #FFC000;
+}
+
+.mainnews:hover {
+    box-shadow: 0px 0px 10px #888888;
+}

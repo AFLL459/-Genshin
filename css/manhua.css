@@ -1,0 +1,121 @@
+.head-title-cloud {
+    position: absolute;
+    background-color: rgb(105, 224, 255);
+    height: 5px;
+    left: 710px;
+    width: 40px;
+    top: 0px;
+    /* 无法做出如同官网一般可移动横条所做的替代物 */
+}
+
+.footer {
+    position: relative;
+    top: 865px;
+    width: 100%;
+    height: 429.8px;
+    margin-top: 0px;
+    margin-top: -1075px;
+    /* 如需嵌和新页面调整此代码即可 */
+    background-color: #000;
+}
+
+.topone a img {
+    display: flex;
+    width: 100%;
+    height: 516.88px;
+}
+
+.topone-text {
+    width: 100%;
+    height: 366px;
+    position: absolute;
+    padding-left: 10px;
+    margin-top: -516.88px;
+}
+
+.topone-text-one {
+    height: 44px;
+    margin-top: 132px;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+.topone-text-one p {
+    font-size: 36px;
+    line-height: 44px;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+}
+
+.topone-text-two {
+    width: 600px;
+    height: 120px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 120px;
+}
+
+.topone-text-two p {
+    line-height: 24px;
+    font-weight: 600;
+    display: block;
+    margin-block-start: 1px;
+}
+
+.topone-text-three {
+    width: 175px;
+    height: 36px;
+    margin-left: 120px;
+    padding: 0 10px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 4px;
+    opacity: 0.75;
+    background-color: #00c0ff;
+}
+
+.topone-text-three p {
+    color: white;
+}
+
+.box-container {
+    width: 1500px;
+    padding: 8px 10px;
+    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -1040px;
+    margin-left: 16%;
+}
+
+.right-box {
+    float: left;
+    width: 1300px;
+    height: 825px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.box-list li {
+    width: 304px;
+    height: 191px;
+    background-color: white;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    /* display: inline-block; */
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    left: 50%;
+}
+
+.box-list li:hover {
+    background-color: black;
+    transform: scale(1.1);
+    color: white;
+}
+
+.right-box {
+    text-align: center;
+    font-size: 12px;
+}
